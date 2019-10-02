@@ -20,11 +20,11 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="Personal, Portfolio, Creative">
-    <meta name="description" content="Kalvin Portfolio Template">
-    <meta name="author" content="cosmos-themes">
+    <meta name="keywords" content="ทำเว็บ,สร้างเว็บ,SEO,Google Adwords,Facebook Ads,เชียงราย,การตลาดออนไลน์,">
+    <meta name="description" content="รับทำเว็บไซต์, SEO, Google Adwords, Facebook Ads จังหวัดเชียงราย ด้วยทีมงานมืออาชีพ มีหน้าร้าน งานไว ส่งตรงเวลา">
+    <meta name="author" content="CRCODING">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Kalvin - Portfolio Template</title>
+    <title>CRCODING-รับทำเว็บไซต์จังหวัดเชียงราย ด้วยทีมงงานมืออาชีพ</title>
 
     <!-- favicon -->
     <link href="/assets/images/favicon.ico" rel="icon" type="image/png">

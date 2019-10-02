@@ -39,10 +39,20 @@
         <div class="row">
             <div class="col text-center">
                 <div class="blog-button pt-40">
-                    <a class="main-btn" href="blogs-page.html">ดูทั้งหมด</a>
+                    <a class="main-btn">ดูทั้งหมด</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <!--Blog Section End-->
+
+<style>
+.blog-button a {
+    color:white !important;
+}
+
+.blog-button a:hover {
+    color:black !important;
+}
+</style>

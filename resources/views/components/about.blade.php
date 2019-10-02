@@ -19,12 +19,12 @@
                     <p>เราไม่ใช้เว็บไซต์สำเร็จรูป แต่เขียนขึ้นมาใหม่ทั้งหมดด้วยภาษาโปรแกรมมิ่งยอดนิยม เช่น Laravel, VueJS, ReactJS, NodeJS, Flutter และ อื่นๆ อีกมากมาย</p>
                     <!--About Social Icons-->
                     <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-line"></i></a>
-                        <a href="#"><i class="fas fa-map-marked-alt"></i></a>
+                        <a><i class="fab fa-facebook"></i></a>
+                        <a><i class="fab fa-line"></i></a>
+                        <a><i class="fas fa-map-marked-alt"></i></a>
                     </div>
                     <span class="about-button">
-                        <a class="main-btn" href="#" data-scroll-nav="5">ฝากข้อความถึงเรา</a>
+                        <a class="main-btn">โหลดโบรชัวร์</a>
                     </span>
                 </div>
             </div>
@@ -32,3 +32,21 @@
     </div>
 </section>
 <!--About Section End-->
+
+<style>
+.social-icons a {
+    color:white !important;
+}
+
+.social-icons a:hover {
+    color:black !important;
+}
+
+.about-button a {
+    color:white !important;
+}
+
+.about-button a:hover {
+    color:black !important;
+}
+</style>
