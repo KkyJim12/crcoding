@@ -41,14 +41,11 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
      */
     protected function gate()
     {
-        Gate::define(
-            'viewNova', function ($user) {
-                if( !$user->isAdmin() ) {
-                    abort(redirect('/')->with('warning', 'You do not have permission to access this page!'));
-                }
-                return $user->admin;
-            }
-        );
+        Gate::define('viewNova', function ($user) {
+            return in_array($user->email, [
+                'jirakarnjim1@gmail.com',
+            ]);
+        });
     }
 
     /**
